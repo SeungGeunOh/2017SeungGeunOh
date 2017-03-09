@@ -14,19 +14,19 @@
 
         <TextView
             android:id="@+id/textView16"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="피자(15000원)" />
+            android:layout_weight="50"
+            android:text="  피자(15000원)" />
 
         <EditText
             android:id="@+id/editText1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="50"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="개수 입력"/>
+            android:hint="개수 입력"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -36,16 +36,16 @@
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="스파게티(13000원)" />
+            android:layout_weight="50"
+            android:text="  스파게티(13000원)" />
 
         <EditText
             android:id="@+id/editText2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="50"
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="개수 입력" />
@@ -58,16 +58,16 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="샐러드(9000원)" />
+            android:layout_weight="50"
+            android:text="  샐러드(9000원)" />
 
         <EditText
             android:id="@+id/editText3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="50"
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="개수 입력" />
@@ -92,16 +92,17 @@
 
         <TextView
             android:id="@+id/textView20"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="주문개수" />
+            android:layout_weight="50"
+            android:text="  주문개수" />
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="50"
+            android:textColor="#0016bb"
             android:text="0개" />
 
     </LinearLayout>
@@ -113,16 +114,17 @@
 
         <TextView
             android:id="@+id/textView21"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="주문금액" />
+            android:layout_weight="50"
+            android:text="  주문금액" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="50"
+            android:textColor="#0016bb"
             android:text="0원" />
 
     </LinearLayout>

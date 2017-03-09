@@ -5,22 +5,34 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="HomeWork_APP1"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:label="HomeWork_APP1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".Main3Activity" />
-        <activity android:name=".Main4Activity" />
-        <activity android:name=".Main5Activity" />
-        <activity android:name=".Main6Activity"></activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="사과 계산" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="나이 계산" />
+        <activity
+            android:name=".Main4Activity"
+            android:label="온도 변환기" />
+        <activity
+            android:name=".Main5Activity"
+            android:label="레스토랑 메뉴 주문" />
+        <activity
+            android:name=".Main6Activity"
+            android:label="계산기" ></activity>
     </application>
 
 </manifest>

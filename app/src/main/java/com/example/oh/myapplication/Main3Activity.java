@@ -7,7 +7,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
 public class Main3Activity extends AppCompatActivity {
     EditText e3, e4;
     Button b2, b3;
